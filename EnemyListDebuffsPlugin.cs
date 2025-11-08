@@ -1,4 +1,4 @@
-﻿using Dalamud.Game.Command;
+using Dalamud.Game.Command;
 using Dalamud.Plugin;
 using Lumina.Excel.Sheets;
 using System.Collections.Generic;
@@ -67,7 +67,7 @@ namespace EnemyListDebuffs
 
             CommandManager.AddHandler("/eldebuffs", new CommandInfo(this.ToggleConfig)
             {
-                HelpMessage = "Toggles config window."
+                HelpMessage = "打开/关闭配置窗口"
             });
         }
         public void Dispose()
