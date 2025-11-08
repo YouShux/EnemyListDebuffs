@@ -13,11 +13,7 @@ namespace EnemyListDebuffs
     {
         private readonly EnemyListDebuffsPlugin _plugin;
 
-#if DEBUG
-        private bool ConfigOpen = true;
-#else
         private bool ConfigOpen = false;
-#endif
         public bool IsConfigOpen => ConfigOpen;
 
         public EnemyListDebuffsPluginUI(EnemyListDebuffsPlugin p)
